@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* ================= JOIN PAGE ================= */
+
+.join-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.join-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.join-form h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.join-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.join-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-form button:hover {
+  background-color: #5a67d8;
+}
+
+/* ================= EDITOR PAGE ================= */
+
+.editor-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #2d3748;
+  color: #f1f1f1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.room-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.room-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.copy-btn {
+  padding: 0.5rem 1rem;
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.copy-btn:hover {
+  background-color: #5a67d8;
+}
+
+.sidebar h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #4a5568;
+  border-radius: 4px;
+}
+
+.typing-indicator {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #ccc;
+}
+
+.language-selector {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.leave-btn {
+  margin-top: auto;
+  padding: 0.75rem;
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.leave-btn:hover {
+  background-color: #c53030;
+}
+
+/* Editor Wrapper */
+.editor-wrapper {
+  flex: 1;
+}
+
+.copy-success {
+  margin-top: 0.5rem;
+  color: #48bb78;
+  font-size: 0.9rem;
+}
