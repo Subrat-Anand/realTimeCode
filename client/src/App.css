@@ -157,3 +157,76 @@ body {
   color: #48bb78;
   font-size: 0.9rem;
 }
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 200px;
+    padding: 1rem;
+  }
+
+  .room-info h2 {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .editor-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .sidebar ul li {
+    flex: 1 1 45%;
+    text-align: center;
+  }
+
+  .language-selector {
+    width: 100%;
+  }
+
+  .leave-btn {
+    margin-top: 1rem;
+  }
+
+  .editor-wrapper {
+    height: 70vh;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+  .join-form {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .join-form h1 {
+    font-size: 1.2rem;
+  }
+
+  .sidebar ul li {
+    flex: 1 1 100%;
+  }
+
+  .editor-wrapper {
+    height: 65vh;
+  }
+}
